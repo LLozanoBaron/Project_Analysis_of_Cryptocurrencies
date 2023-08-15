@@ -18,7 +18,7 @@ En este proyecto se tienen varios objetivos para completar el analisis:
 
 + Presentar un dashboard en Power BI con el análisis.
 
-## **Caracteristicas del proyecto **
+## **Caracteristicas del proyecto**
 
 Aqui se encuentran algunas de las mejores caracteristicas del proyecto:
 
