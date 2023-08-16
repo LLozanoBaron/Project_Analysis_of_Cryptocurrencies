@@ -59,7 +59,7 @@ cg = CoinGeckoAPI()
 cg.ping()  
 ```
 
-+Con el siguiente codigo se selecciono las monedas por sus id y se conoce el nombre con el fin de tenerlos como variables
++ Con el siguiente codigo se selecciono las monedas por sus id y se conoce el nombre con el fin de tenerlos como variables
 
 ```python
 #df_coin[df_coin['id'] == 'bitcoin']
