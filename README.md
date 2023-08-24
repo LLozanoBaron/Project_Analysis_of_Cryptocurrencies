@@ -1,30 +1,30 @@
 <h1 align="center"> PROYECTO INDIVIDUAL ANÁLISIS DE CRIPTOMONEDAS </h1>
 
-## **INTRODUCCIÓN**
+## **INTRODUCTION**
 
-En este proyecto se van a analizar diez criptomonedas con menor volatilidad y por lo tanto aptas para inversiones a largo plazo, para determinar cuales criptomonedas se elegirian se realizo una busqueda en la web con el fin de comprender las mejores opciones de inversion para una empresa, con las monedas elegidas se realizo una limpieza y seleccion de datos con el fin de generar KPIs los cuales nos ayudaran a comprender las ganancias y a no generar perdidas con estas inversiones.
+In this project, ten cryptocurrencies with lower volatility and therefore suitable for long-term investments will be analyzed. To determine which cryptocurrencies would be chosen, a web search was conducted to understand the best investment options for a company. With the chosen coins, data cleaning and selection were carried out to generate KPIs that will help us understand the gains and losses that will be incurred if the decision is made to continue with this investment.
 
-## **OBJETIVOS**
+## **OBJECTIVES**
 
-En este proyecto se tienen varios objetivos para completar el analisis:
+EIn this project, there are several objectives to complete the analysis:
 
-+ Analizar mediante un EDA los datos seleccionados de las monedas.
++ Analyze the selected data from the coins through an EDA.
 
-+ Realizar el calculo del retorno de la inversion anual.
++ Calculate the annual return on investment.
 
-+ Determinar el punto de equilibrio real.
++ Determine the actual break-even point.
 
-+ Calcular el margen de utilidad.
++ Calculate the profit margin.
 
-+ Presentar un dashboard en Power BI con el análisis.
++ Present a dashboard in Power BI with the analysis.
 
-## **Caracteristicas del proyecto**
+## **THE CHARACTERISTICS OF THE PROJECT**
 
-Aqui se encuentran algunas de las mejores caracteristicas del proyecto:
+Here are some of the best features of the project:
 
-+ Se realiza un análisis de las diez criptomonedas para inversion a largo plazo.
-+ El proyecto utiliza una API especializada en criptomonedas, por lo tanto contiene datos actualizados.
-+ Se muestra las ventajas economicas de la inversion.
++ An analysis of the ten cryptocurrencies for long-term investment is carried out.
++ The project uses a specialized cryptocurrency API, therefore it contains updated data.
++ Se determina que el retorno de la inversion en criptomonedas como Solana y 
 
 ## **Construcción del proyecto***
 
