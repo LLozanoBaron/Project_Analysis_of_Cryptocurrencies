@@ -1,4 +1,4 @@
-<h1 align="center"> PROYECTO INDIVIDUAL ANÁLISIS DE CRIPTOMONEDAS </h1>
+<h1 align="center"> INDIVIDUAL PROJECT ANALYSIS OF CRYPTOCURRENCIES </h1>
 
 ## **INTRODUCTION**
 
@@ -24,20 +24,24 @@ Here are some of the best features of the project:
 
 + An analysis of the ten cryptocurrencies for long-term investment is carried out.
 + The project uses a specialized cryptocurrency API, therefore it contains updated data.
-+ Se determina que el retorno de la inversion en criptomonedas como Solana y 
++ It can be determined through analysis that the return on investment in cryptocurrencies such as Solana and Ethereum, to name just two, is much higher than that of Bitcoin in the last year
++ Interpreting the profit margin, if an investment of $60,000 is made in cryptocurrencies, there is a profit of 91.77%, indicating that they are highly profitable investments
++ It was determined that the break-even points are acceptable because many of these cryptocurrencies are of low value and high profitability.
 
-## **Construcción del proyecto***
+## **Construction of the project***
 
-El proyecto fue construido con:
+he project was built with:
 + VSCode
 + Python 3.11.3
++ Pandas, Numpy, Matplotlib,Seaborn
 + pyCoinGecko
 + Power BI
-+ Excel
++ Microsoft Excel
++ Different specialized web pages, which provided information on the least volatile currencies.
 
-Los siguientes codigos son parte de la estructura del proyecto, los relacionados a las funciones de la API son de la autoria de pyCoinGecko:
+The following codes are part of the project structure, those related to the API functions are authored by pyCoinGecko:
 
-+ El siguiente codigo se utilizo para instalar la API e importar todo lo necesario para realizar las consultas
++ The following code was used to install the API and import everything necessary to perform the queries.
 
 ``` python
 pip install pycoingecko
@@ -59,7 +63,7 @@ cg = CoinGeckoAPI()
 cg.ping()  
 ```
 
-+ Con el siguiente codigo se selecciono las monedas por sus id y se conoce el nombre con el fin de tenerlos como variables
++ With the following code, the coins were selected by their id and the name is known in order to have them as variables.
 
 ```python
 #df_coin[df_coin['id'] == 'bitcoin']
@@ -82,7 +86,7 @@ currencies = cg.get_supported_vs_currencies()
 use_currencies = 'usd'
 ```
 
-+ Con el siguiente codigo se obtine market cap y precios
++ With the following code, market cap and prices are obtained.
 
 ```python
 #Get the historical data of the coins
@@ -95,7 +99,7 @@ dfmarket_coins
 dfmarket_filter = dfmarket_coins[['id','current_price','market_cap','market_cap_rank','fully_diluted_valuation','total_volume','high_24h','low_24h','price_change_24h','price_change_percentage_1y_in_currency','price_change_percentage_24h_in_currency','price_change_percentage_30d_in_currency']]
 ```
 
-+ El siguiente es la obtención de los precios historicos de Bitcoin
++ The following is the obtaining of the historical prices of Bitcoin.
 
 ```python
 #get daily historical data
@@ -126,9 +130,9 @@ df_hist_bitcoin['Price bitcoin'].plot(ax=ax)
 ax.set_title('Bitcoin Price History')
 plt.show()
 ```
-+ También se hizo uso de Excel con el fin de que los precios fueran combinados de forma correcta y desde el 2021 hasta el 15 de agosto de 2023
++ Excel was also used in order to combine the prices correctly and from 2021 until August 15, 2023.
 
-## **Recursos**
+## **RESOURCES**
 
 + https://github.com/man-c/pycoingecko.git
 + https://github.com/soyHenry/PI_DA.git
@@ -137,10 +141,10 @@ plt.show()
 + https://admiralmarkets.com/es/education/articles/cryptocurrencies/mejores-criptomonedas-para-invertir
 + https://www.ig.com/es/ideas-de-trading-y-noticias/-cuales-son-las-6-mejores-criptomonedas-para-invertir-en-abril-2-230412
 
-## **AUTORA**
+## **AUTHOR**
 
 Laura Viviana Lozano Baron
 
-## **LICENCIA**
+## **LICENSE**
 
-MIT
+This work is under the MIT liecense.
